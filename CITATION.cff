@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper below."
+title: "TPMO: Two-Phase Metamodel-Driven Optimization"
+type: software-code
+version: 1.0.0
+authors:
+  - family-names: "Ilchi Ghazaan"
+    given-names: "M."
+  - family-names: "Sharifi"
+    given-names: "M."
+repository-code: "https://github.com/mostafatsom/TPMO"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Ilchi Ghazaan"
+      given-names: "M."
+    - family-names: "Sharifi"
+      given-names: "M."
+  title: "A Two-Phase Metamodel-Driven Approach for Topology and Size Optimization of Truss Structures"
+  journal: "International Journal of Optimization in Civil Engineering"
+  volume: 15
+  issue: 2
+  start: 181
+  end: 201
+  year: 2025
+  doi: "10.22068/ijoce.2025.15.2.630"

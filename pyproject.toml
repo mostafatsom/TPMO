@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tpmo"
+version = "1.0.0"
+description = "Standalone implementation of Two-Phase Metamodel-Driven Optimization with adaptive sampling, Extensive Constraints, XGBoost, and FSGO."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "M. Ilchi Ghazaan"},
+  {name = "M. Sharifi"},
+]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "xgboost>=2.0",
+  "fsgo-optimizer @ git+https://github.com/mostafatsom/FSGO.git@main",
+]
+keywords = [
+  "optimization",
+  "surrogate-optimization",
+  "adaptive-sampling",
+  "metamodel",
+  "xgboost",
+  "fsgo",
+  "expensive-optimization",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Repository = "https://github.com/mostafatsom/TPMO"
+FSGO = "https://github.com/mostafatsom/FSGO"
+Paper = "https://doi.org/10.22068/ijoce.2025.15.2.630"
+
+[tool.setuptools]
+py-modules = ["tpmo"]
