@@ -203,6 +203,11 @@ TPMO/
 └── tpmo.py
 ```
 
+## Related projects
+
+- [FSGO](https://github.com/mostafatsom/FSGO): the standalone optimization search engine used by TPMO.
+- [ANSO](https://github.com/mostafatsom/ANSO): Adaptive Neighborhood Surrogate Optimization for expensive black-box problems.
+
 ## Citation
 
 GitHub reads citation metadata from `CITATION.cff`.
